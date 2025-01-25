@@ -25,7 +25,7 @@ You can choose from two naming conventions for the Logic App:
 1. Without prefix: LA-Entra-Expiring-Secret-Checker
 2. With prefix: EX-LA-Entra-Expiring-Secret-Checker
 
-**Deployment Parameters**
+**Deployment Parameters**  
 Modify the script parameters to match your environment
 - myResourceGroup = the resource group where azure resources are deployed
 - createdBy = The one who deploys the resources, used for tags
