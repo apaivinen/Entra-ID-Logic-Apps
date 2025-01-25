@@ -6,9 +6,9 @@ You need to have following:
 1. Azure subscription
 2. Resource Group
     - With permmission level to deploy resources (for example Contributor)
-3. Azure CLI powershell module (https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)[https://learn.microsoft.com/en-us/cli/azure/install-azure-cli]
+3. Azure CLI powershell module [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
     - Bicep CLI (should be already installed if you have Azure CLI module)
-4. Microsoft Graph powershell module (https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0)[https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0]
+4. Microsoft Graph powershell module [https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0)
 5. Permissions to assign Microsoft Graph permissions to managed identity (for example Application Administrator role)
 6. Service account with licence to access teams & outlook
 7. Teams team available
