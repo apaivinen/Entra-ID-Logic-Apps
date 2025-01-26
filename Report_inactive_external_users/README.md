@@ -63,7 +63,6 @@ The script below assigns the `Application.Read.All` permission to your managed i
 ```powershell
 # Add the correct 'Object (principal) ID' for the Managed Identity
 $ObjectId = "MIObjectID"
-$ObjectId = "41dfc6a3-0c13-47db-9b08-d80427b8f977"
 
 # Add the correct Graph scopes to grant (multiple scopes)
 $graphScopes = @(
