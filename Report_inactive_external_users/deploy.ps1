@@ -59,3 +59,5 @@ az deployment group create `
     --parameters `
         createdBy=$createdBy `
         servicePrefix=$servicePrefix
+
+Write-Host "Deployment completed." -ForegroundColor Yellow
