@@ -30,8 +30,8 @@
 .NOTES
     Version:            1.0
     Author:             Anssi Päivinen
-    Created Date:       2025-01-25
-    Modified Date:      2025-01-25
+    Created Date:       2025-01-26
+    Modified Date:      2025-01-26
     Purpose/Change:     Initial script development
 
 #>

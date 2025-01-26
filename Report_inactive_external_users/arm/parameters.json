@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "connections_LA_Entra_Inactive_Guests_teams_name": {
+            "value": null
+        },
+        "workflows_LA_Entra_Delete_Inactive_Guests_name": {
+            "value": null
+        },
+        "workflows_LA_Entra_Report_Inactive_Guests_name": {
+            "value": null
+        },
+        "userAssignedIdentities_LA_Entra_Inactive_Guests_identity_name": {
+            "value": null
+        }
+    }
+}
