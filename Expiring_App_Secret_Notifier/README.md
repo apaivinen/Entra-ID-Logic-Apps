@@ -1,6 +1,8 @@
 # LogicApp-Expiring-App-Secret-Notifier
 This folder contains a Bicep template & deployment script for automation which notifies expiring Entra ID app secrets.
 
+For detailed description of the logic app please check [my post](https://www.anssipaivinen.fi/posts/expiring-app-secret-notifier/)
+
 ## Requirements
 Ensure you have the following prerequisites:
 1. Azure subscription
