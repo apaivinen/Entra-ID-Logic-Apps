@@ -119,7 +119,7 @@ To authorize the required API connections, follow these steps:
 
 The **LA-Entra-Delete-Inactive-Guests** Logic App is intentionally disabled in two different ways to prevent accidental deletions, ensuring that it only runs when you explicitly enable it.
 
-[!CAUTION]
+> [!CAUTION]
 This Logic App deletes the external users. As the time of writing deleted users are moved to Deleted Users and can be restored within 30 days. More information at [https://learn.microsoft.com/en-us/graph/api/user-delete?view=graph-rest-1.0&tabs=http](https://learn.microsoft.com/en-us/graph/api/user-delete?view=graph-rest-1.0&tabs=http)
 
 #### Steps to activate:
