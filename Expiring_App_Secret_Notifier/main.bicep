@@ -23,7 +23,7 @@ param location string = az.resourceGroup().location
 @description('The deployment timestamp')
 param deploymentTimestamp string = utcNow() // Example: 20241123T210053Z
 
-var LogicAppname = empty(servicePrefix) ? 'LA-Entra-Expiring-Secret-Checker' : '${servicePrefix}-LA-Entra-Expiring-Secret-Checker'
+var LogicAppname = empty(servicePrefix) ? 'LA-Entra-Expiring-App-Secret-Checker' : '${servicePrefix}-LA-Entra-Expiring-App-Secret-Checker'
 var teamsConnectorName = '${LogicAppname}-teams'
 var o365ConnectorName = '${LogicAppname}-o365'
 var year = substring(deploymentTimestamp, 0, 4)          // Extracts '2024'
